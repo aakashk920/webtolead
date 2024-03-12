@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web to Lead form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+
+<body>
+    
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DF9000001FdN2"
+        method="POST" onsubmit="beforesubmit()">
+        <input type=hidden name='captcha_settings' value='{"keyname":"webtolead","fallback":"true","orgId":"00DF9000001FdN2","ts":""}'>
+        <input type=hidden name="oid" value="00DF9000001FdN2">
+        <input type=hidden name="retURL" value="">
+
+       
+        <input type=hidden name="Lead_Date__c" class="outputdate"/>
+
+        <label for="first_name" ></label><input id="first_name" placeholder="Enter First Name " maxlength="40" name="first_name" size="20"
+            type="text" /><br>
+
+        <label for="last_name"></label><input id="last_name" placeholder="Enter Last Name" maxlength="80" name="last_name" size="20"
+            type="text" /><br>
+
+        <label for="email"></label><input id="email"  placeholder="Enter Email" maxlength="80" name="email" size="20" type="text" /><br>
+
+        <label for="email"></label>
+        <input type="date" required="true" class="inputdate" placeholder="Enter Date"/>
+
+
+        <!-- Lead Date:<span class="dateInput dateOnlyInput"><input id="00NF9000008M10j" name="00NF9000008M10j" size="12"
+                type="text" /></span><br>
+     -->
+     <div class="g-recaptcha"
+     dala-callback="captchasuccess" data-sitekey="6Lc31JUpAAAAAO2GWhdSIdZHndPUOYD1VcSrCKLH"></div><br>
+        <input class="submit" type="submit" name="submit">
+        <h1>Create Lead Here</h1>
+    </form>
+    <div class="stars">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div>
+</body>
+
+</html>
